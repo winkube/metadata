@@ -1,0 +1,32 @@
+version: v1.21.4
+components:
+  containerd:
+    name: containerd
+    description: container runtime engine
+    version: v1.5.8
+    path: C:\etc\winkube\bin\containerd-v1.5.8.exe
+  flannel:
+    name: flannel
+    description: the flannel cni
+    version: v0.15.1
+    path: C:\etc\winkube\bin\flannel-v0.15.1.exe
+  flannel_cni:
+    name: flannel
+    description: the flannel cni plugin
+    version: v1.0.0
+    path: C:\etc\winkube\bin\flannel-cni-v1.0.0.exe
+  kube-apiserver:
+    name: kube-apiserver
+    description: container runtime engine
+    version: v1.21.4
+    path: C:\etc\winkube\bin\kube-apiserver-v1.21.4.exe
+  kubelet:
+    name: kubelet
+    description: container runtime engine
+    version: v1.21.4
+    path: C:\etc\winkube\bin\kubelet-v1.21.4.exe
+  kube-proxy:
+    name: kube-proxy
+    description: container runtime engine
+    version: v1.21.4
+    path: C:\etc\winkube\bin\kube-proxy-v1.21.4.exe
